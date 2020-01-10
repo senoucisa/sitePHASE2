@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description"content="Mon premier site HTML CSS">
+    <meta name="keywords" content="HTML CSS - Samia">
+    <title>Site phase 2 </title>
+    <!-- lien vers le kit de fontawesome -->
+    <script src="https://kit.fontawesome.com/deab18204a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<!-- corp du document -->
+<body>
+<!-- zone haute de la page -->
+
+    <header>
+        <!-- la div pour le logo -->
+        <div id="logo"><!-- ancre du haut de la page -->
+
+            <!-- lien sur un bouton pour remonter en haut de la page -->
+            <a href="#logo">
+                <!-- affiché en bas de page(évidement)gra^ce au CSS -->
+                <button type="button"><i class="fas fa-arrow-circle-up"></i></button></a>
+                
+           
+            <img src="../img/logo.png" alt="Mon premier site HTML CSS">
+        </div>
+        <!-- la div pour le titre du site -->
+        <div id="slogan"><h1>Mon premier site en HTML & CSS</h1></div>
+        <!-- la div des liens vers les reseaux sociaux -->
+        <div id="social"></div>
+        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+        
+    </header>
+<!-- zone du menu ,les liens pour naviguer sur le site-->
+        <nav>
+        
+
+            <a href="index.html" title="Site phase 2// Accueil,la structure">Index</a>
+            <a href="texte.html"title="Site phase2 //">Texte</a>
+            <a href="selecteur.html"title="Site phase2 //">Selecteur</a>
+            <a href="image.html" title="Site phase2 //">Image</a>
+            <a href="position.html" title="Site phase 2 //">Position</a>
+            <a href="zoning.html" title="Site phase 2//" class="active">Zoning</a>
+            <a href="tableau.html" title="Site phase 2 //">Tableau</a>
+            <a href="liste.html" title="Site phase 2//">Liste</a>
+            <a href="lien_et_menu.html" title="Site phase 2//">Lien&menu</a>
+            <a href="formulaire.html" title="Site phase 2//">Formulaire</a>
+            <a href="multimedia.html" title="Site phase 2//">Multimedia</a>
+            <a href="animation.html" title="Site phase 2//">Animation</a>
+
+        </nav>
+
+    <!-- contenu principale -->
+    <main>
+        <h2>Les différents zonings</h2>
+
+        <section>
+            <h3>Zoning n°1</h3>
+            <div id="zoning1">
+                <header>
+                    <p>Ici le Zoning 1</p>
+                </header>
+                <aside>
+                    <p>Zone de gauche</p>
+                </aside>
+                <section>
+                    <p>Zone de droite</p>
+                </section>
+                <div class="clear"></div>
+            </div>
+        </section>
+        
+        <!-- ZONING 2  -->
+        <section>
+            <h3>Zoning n°2</h3>
+            <div id="zoning2">
+                <header>
+                    <p>Ici le header<br>HEADER</p>
+                </header>
+                <aside>
+                    <p>Zone de gauche<br>ASIDE</p>
+                </aside>
+                <div class="milieu">
+                    <p>Zone du milieu</p>
+                </div>
+                <aside>Zone de droite<br>ASIDE</aside>
+                <div class="clear"></div>
+            
+        </section>
+          <!-- ZONING 3 -->
+          <section>
+            <h3>Zoning 3</h3>
+                <div id="zoning3">
+                    <section>
+                        <p>Gauche<br>SECTION</p>
+                    </section></div>
+                    <section class="jaune">
+                        <p>Droite<br>SECTION</p>
+                    </section>
+                    <footer>
+                        <p>Bas<br>FOOTER</p>
+                    </footer>
+                    <div class="clear"></div>
+               
+        </section>
+        
+        <!-- ZONING 4 -->
+
+        <section>
+            <h3>Zoning 4</h3>
+            <div id="zoning4">
+                <header>
+                    <p>Header</p>
+                </header>
+                <nav>
+                    <p>nav</p>
+                </nav>
+                <section>
+                    <p>section</p>
+                </section>
+                <footer>
+                    <p>footer</p>
+                </footer>
+                <div class="clear"></div>
+            </div>
+        </section>
+        
+
+         <!--Zoning 5-->
+         <section>
+            <h3>Zoning 5</h3>
+            <div id="zoning5">
+                <header><p>Header</p></header>
+                <nav><p>nav</p></nav>
+                <section class="section">
+
+                    <div class="z1">zone 1</div>
+                    <div class="z2">zone 2</div>
+                    <div class="z3">zone 3</div>
+                    <div class="z4">zone 4</div>
+
+                </section>
+                <div class="clear"></div>
+                <footer><p>footer</p></footer>
+            </div>
+        </section>
+
+         <!--Zoning 6-->
+        <section>
+            <h3>Zoning 6</h3>
+            <div id="zoning6">
+                <header>
+                    <div class="haut1"><p>Haut 1<br>DIV</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p></div>
+                    <div class="haut2"><p>Haut 2<br>DIV</p></div>
+                    <div class="haut3"><p>Haut 3<br>DIV</p></div>
+                    <div class="clear"></div>
+                </header>
+                <nav><p>Menu<br>NAV</p></nav>
+                <aside><p>Zone de gauche<br>ASIDE</p></aside>
+                <section>
+                    <div class="a">A<br>DIV</div>
+                    <div class="b">B<br>DIV</div>
+                    <div class="clear"></div>
+                </section>
+                <section class="slideshow"><p>slideshow, diaporama<br>SECTION</p></section>
+                <section>
+                    <div class="c">C</div>
+                    <div class="d">D</div>
+                    <div class="e">E</div>
+                    <div class="f">F</div>
+                    <div class="clear"></div>
+                </section>
+                <footer class="clear"><p>Bas<br>footer</p></footer>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- pied de page  -->
+    <footer>
+       <p><i class="fas fa-shoe-prints"></i> Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+    </footer>
+
+</body>
+</html>
+
+       
