@@ -4,65 +4,136 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Mon premier site HTML CSS - Sahar">
-    <meta name="keywords" content="HTML, CSS, Sahar, site HTML CSS ">
-    <title>Site Phase 2 - Zoning</title>
-    <!-- lien vers les typos en CDN  -->
-    <link href="https://fonts.googleapis.com/css?family=Anton|Lemonada|Oswald&display=swap" rel="stylesheet"> 
-    <script src="https://kit.fontawesome.com/94a46f98c4.js" crossorigin="anonymous"></script>
+    <meta name="description" content="Mon premier site HTML CSS">
+    <meta name="keywords" content="HTML, CSS, site HTML CSS">
+    <title>Site Phase 2 - Lien & menu</title>
+    <!-- lien vers le kit de fontawesome -->
+    <script src="https://kit.fontawesome.com/47c3463c0f.js" crossorigin="anonymous"></script>
+    <!-- lien des typos en CDN -->
+    <link href="https://fonts.googleapis.com/css?family=Anton|Lemonada|Oswald&display=swap" rel="stylesheet">
+    <!-- liens des styles CSS -->
+    <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
 </head>
+<!-- corps du document -->
 <body>
-   <!-- zon haute de la page -->
-   <header>
-    <!-- div*3#  -->
-    <!-- la div pour le logo  -->
-        <div id="logo"> <!-- ancre du haut de la page  -->
-        <a href="#logo"><!-- lien sur un bouton pour remonter en haut de la page le bouton sera afficheé en bas de page (évidement) grâce au css  -->
-        <button type="button" class="haut"><i class="fas fa-arrow-alt-circle-up"></i> </button></a>
-        <img src="../img/logo.png" alt="Mon premier site HTML CSS">
+    <!-- zone haute de la page -->
+    <header>
+        <!-- la div pour le logo -->
+        <div id="logo">
+            <!-- ancre du haut de la page -->
+            <a href="#logo">
+                <!-- lien sur un bouton pour remonter en haut de la page, le bouton sera affiché en bas de la page (évidemment) grâce au CSS -->
+                <button type="button"><i class="fas fa-arrow-circle-up"></i></button></a>
+            <img src="../img/logo.png" alt="Mon premier site HTML CSS">
         </div>
-    <!-- la div pour le titre de site  -->
-        <div id="slogan"><h1>Mon premier site en HTML & CSS</h1></div>
-    <!-- la div pour les liens vers les réseaux sociaux  -->
+        <!-- la div pour le titre du site -->
+        <div id="slogan">
+            <h1>Mon premier site en HTML/CSS</h1>
+        </div>
+        <!-- la div des liens vers les réseaux sociaux -->
         <div id="social">
-            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/?hl=fr" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://fr-fr.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
         </div>
-         <!-- je rétablis le flux  -->
-         <div class="clear"></div>
+        <!-- je rétablis le flux -->
+        <div class="clear"></div>
     </header>
-    <!-- zone du menu, les liens pour naviguer sur le site  -->
-        <nav>
-            <a href="../index.html" title="Site Phase 2 //Accueil, La structure">Sructure</a>
-            <a href="text.html" title="Site Phase 2// Les textes">Texte</a>
-            <a href="selecteur.html" title="Site Phase 2// Les selecteurs">Structure</a>
-            <a href="image.html" title="Site Phase 2// Les images">Image</a>
-            <a href="position.html" title="Site Phase 2// les positions">Position</a>
-            <a href="zoning.html" title="Site Phase 2//Le zoning" class="active">Zoning</a>
-            <a href="tableau.html" title="Site Phase 2// Les tableau">Tableau</a>
-            <a href="liste.html" title="Site Phase 2// Les listes">Liste</a>
-            <a href="lien_et_menu.html" title="Site Phase 2// Les liens et les menus" class="active">lien & menu</a>
-            <a href="formulaire.html" title="Site Phase 2// Les formulaire">Formulaire</a>
-            <a href="multimedia.html" title="Site Phase 2// La multimedia" >Multemidia</a>
-            <a href="animation.html" title="Site Phase 2// Les animation">Animation</a>
-        </nav>
-   
-<!-- contenu principal -->
+    <!-- zone du menu, les liens pour naviguer sur le site -->
+    <nav>
+        <a href="../index.html" title="Site Phase 2 - Accueil">Structure</a>
+        <a href="texte.html" title="Site Phase 2 - Texte">Texte</a>
+        <a href="selecteur.html" title="Site Phase 2 - Sélecteur">Sélecteur</a>
+        <a href="image.html" title="Site Phase 2 - Image">Image</a>
+        <a href="position.html" title="Site Phase 2 - Position">Position</a>
+        <a href="zoning.html" title="Site Phase 2 - Zoning">Zoning</a>
+        <a href="tableau.html" title="Site Phase 2 - Tableau">Tableau</a>
+        <a href="liste.html" title="Site Phase 2 - Liste">Liste</a>
+        <a href="lien_menu.html" title="Site Phase 2 - Lien & menu" class="active">Lien & menu</a>
+        <a href="formulaire.html" title="Site Phase 2 - Formulaire">Formulaire</a>
+        <a href="multimedia.html" title="Site Phase 2 - Multimédia">Multimédia</a>
+        <a href="animation.html" title="Site Phase 2 - Animation">Animation</a>
+    </nav>
+    <!-- contenu principal -->
     <main>
-<!--aside contenu secondaire ou contenu latéral à gauche ou à droite -->
-        <aside></aside>
-<!-- section zone de contenu,titre,regroupement thématique ect -->
-        <section>
-<!-- zone supplémentaire de contenu -->
-            <div></div>
-            <span></span>
-            <article></article>
+        <h2>Lien et menu</h2>
+        <div class="ancre">
+            <a href="#lien">Les liens</a>
+            <a href="#menu">Menu ou navigation</a>
+            <a href="#menuDeroulant">Menu déroulant</a>
+        </div>
+        <section id="lien">
+            
+            <h3>Les liens</h3>
+                <!--Dans le lien nous aurons aussi (title="xxx") pour ouvrir fenêtre d'info au passage de la souris sur le lien et (target="_blank") pour envoyer sur un autre onglet"-->
+                <a href="https://codepen.io" title="Se rendre sur le site de CodePen" target="_blank">CodePen</a> is a social development environment for front-end designers and developers.<br>
+                <a href="http://www.google.fr" target="_blank">Google</a> le moteur de recherche.<br>
+                <a href="../fichiers/pantin_planning - pantin 19-20v060120.pdf">Télécharger le planning</a><br>
+                <!-- On peut ajouter juste un download dans le lien pour rendre téléchargeable le fichier -->
+                <a href="../fichiers/pantin_planning - pantin 19-20v060120.pdf" target="_blank">Voir le planning</a><br>
+                <!-- Pour imprimer ma page -->
+                <a href="#" onclick="window.print()">Imprimer la page</a><br>
+                <!--Pour rendre cliquable une image et renvoyer sur le lien inséré dessus-->
+                <a href="https://www.facebook.com/" target="_blank"><img src="../img/facebook.ico" alt=""></a><br>
+                <!-- Inséré le lien juste dans " ici " qui renvoi sur une autre page de mon site -->
+                Cliquer <a href="../index.html">ici</a> pour vous rendre sur la page.
         </section>
+        <section id="menu">
+            <h3>Les menus</h3>
+                <nav>
+                   <ul>
+                       <li><a href="#">Accueil</a></li>
+                       <li><a href="#">Parcours</a></li>
+                       <li><a href="#">Réalisations</a></li>
+                       <li><a href="#">Contact</a></li>
+                      
+                   </ul>
+
+                </nav>
+        </section>
+        <section id="menuDeroulant"></section>
+            <h3>Un menu déroulant</h3>
+
+            <nav>
+                <ul class="Niveau1">
+
+                    <li><a href="#">Accueil</a></li>
+                    <li class="sousMenu"><a href="#">Formations</a></li>
+                        <ul class="">
+                            <li><a href="#">Etudiant</a></li>
+                            <li><a href="#">Emploi</a></li>
+                            <li><a href="#">Recherche d'emploi</a></li>
+                            <li><a href="#">Document</a></li>
+                        </ul>
+                    <li><a href="#">Information</a></li>
+
+                    <li class="sousMenu"><a href="#">Cours</a></li>
+
+                        <ul class="Niveau2">
+
+                            <li><a href="#">Internet</a></li>
+                            <li><a href="#">Html Css</a></li>
+                            <li><a href="#">CMS</a></li>
+                            <li><a href="#">Stats</a></li>
+                            <li><a href="#">Réseaux sociaux</a></li>
+                            <li><a href="#">Réferencement</a></li>
+                            <li><a href="#">Marketing</a></li>
+                            <li><a href="#">Cahier des charges</a></li>
+                            <li><a href="#">Photoshop</a></li>
+
+
+                        </ul>
+
+                    <li><a href="#">Mon cv</a></li>
+                    
+
+                </ul>
+            </nav>
+
     </main>
-<!-- pied de page -->
+    <!-- pied de page -->
     <footer>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.<i class="fas fa-shoe-prints"></i></p>
+        <p><i class="fas fa-shoe-prints"></i> Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
     </footer>
 </body>
 </html>

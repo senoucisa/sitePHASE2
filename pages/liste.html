@@ -4,45 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Mon premier site HTML CSS - Sahar">
-    <meta name="keywords" content="HTML, CSS, Sahar, site HTML CSS ">
-    <title>Site Phase 2 - Zoning</title>
-    <!-- lien vers les typos en CDN  -->
-    <link href="https://fonts.googleapis.com/css?family=Anton|Lemonada|Oswald&display=swap" rel="stylesheet"> 
-    <script src="https://kit.fontawesome.com/94a46f98c4.js" crossorigin="anonymous"></script>
+    <meta name="description"content="Mon premier site HTML CSS">
+    <meta name="keywords" content="HTML CSS - Samia">
+    <title>Site phase 2 </title>
+    <!-- lien vers le kit de fontawesome -->
+    <script src="https://kit.fontawesome.com/deab18204a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/style.css">
 </head>
+<!-- corp du document -->
 <body>
-   <!-- zon haute de la page -->
-   <header>
-    <!-- div*3#  -->
-    <!-- la div pour le logo  -->
-        <div id="logo"> <!-- ancre du haut de la page  -->
-        <a href="#logo"><!-- lien sur un bouton pour remonter en haut de la page le bouton sera afficheé en bas de page (évidement) grâce au css  -->
-        <button type="button" class="haut"><i class="fas fa-arrow-alt-circle-up"></i> </button></a>
-        <img src="../img/logo.png" alt="Mon premier site HTML CSS">
+<!-- zone haute de la page -->
+
+    <header>
+        <!-- la div pour le logo -->
+        <div id="logo"><!-- ancre du haut de la page -->
+
+            <!-- lien sur un bouton pour remonter en haut de la page -->
+            <a href="#logo">
+                <!-- affiché en bas de page(évidement)gra^ce au CSS -->
+                <button type="button"><i class="fas fa-arrow-circle-up"></i></button></a>
+                
+           
+            <img src="../img/logo.png" alt="Mon premier site HTML CSS">
         </div>
-    <!-- la div pour le titre de site  -->
+        <!-- la div pour le titre du site -->
         <div id="slogan"><h1>Mon premier site en HTML & CSS</h1></div>
-    <!-- la div pour les liens vers les réseaux sociaux  -->
-        <div id="social">
-            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
-        </div>
-         <!-- je rétablis le flux  -->
-         <div class="clear"></div>
+        <!-- la div des liens vers les reseaux sociaux -->
+        <div id="social"></div>
+        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
     </header>
     <!-- zone du menu, les liens pour naviguer sur le site  -->
         <nav>
             <a href="../index.html" class="active" title="Site Phase 2 //Accueil, La structure">Sructure</a>
-            <a href="text.html" title="Site Phase 2// Les textes">Texte</a>
+            <a href="texte.html" title="Site Phase 2// Les textes">Texte</a>
             <a href="selecteur.html" title="Site Phase 2// Les selecteurs">Structure</a>
             <a href="image.html" title="Site Phase 2// Les images">Image</a>
             <a href="position.html" title="Site Phase 2// les positions">Position</a>
-            <a href="zoning.html" title="Site Phase 2//Le zoning" class="active">Zoning</a>
+            <a href="zoning.html" title="Site Phase 2//Le zoning">Zoning</a>
             <a href="tableau.html" title="Site Phase 2// Les tableau">Tableau</a>
-            <a href="liste.html" title="Site Phase 2// Les listes">Liste</a>
-            <a href="lien_et _menu.html" title="Site Phase 2// Les liens et les menus">lien & menu</a>
+            <a href="liste.html" title="Site Phase 2// Les listes" class="active">Liste</a>
+            <a href="lien_et_menu.html" title="Site Phase 2// Les liens et les menus">lien & menu</a>
             <a href="formulaire.html" title="Site Phase 2// Les formulaire">Formulaire</a>
             <a href="multimedia.html" title="Site Phase 2// La multimedia" >Multemidia</a>
             <a href="animation.html" title="Site Phase 2// Les animation">Animation</a>
@@ -51,15 +53,54 @@
  
 <!-- contenu principal -->
     <main>
-<!--aside contenu secondaire ou contenu latéral à gauche ou à droite -->
-        <aside></aside>
-<!-- section zone de contenu,titre,regroupement thématique ect -->
+        <h2>Listes</h2>
         <section>
-<!-- zone supplémentaire de contenu -->
-            <div></div>
-            <span></span>
-            <article></article>
+            <h3>Les listes ul</h3>
+            <ul class="fruit">
+                <li class="fruit" ><i class="fa fa-hand-spock-o" aria-hidden="true"></i> Orange</li>
+                <li><i class="fa fa-hand-spock-o" aria-hidden="true"></i> Fraise</li>
+                <li><i class="fa fa-hand-spock-o" aria-hidden="true"></i> Poire</li>
+            </ul>
         </section>
+        <section>
+            <h3>Listes imbriquées</h3>
+            <ul class="imbriquee">
+                <li class="europe">Europe
+                    <ul>
+                        <li>France</li>
+                        <li>Italie</li>
+                        <li>Espagne</li>
+                    </ul>
+                </li>
+                <li class="asie">Asie
+                    <ul>
+                        <li>Chine</li>
+                        <li>Japon</li>
+                        <li>Laos</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h3>Listes Ordonnées</h3>
+            <ol>
+                <li>Html/Css</li>
+                <li>PHP/SQL</li>
+                <li>JS/JQUERY</li>
+            </ol>
+        </section>
+        <section>
+            <h3>Listes de définitions</h3>
+            <dl>
+                <dt>Foxtrot</dt>
+                <dd>Danse des années folles</dd>
+                <dd>France</dd>
+                <dd>Pays d'Europe</dd>
+                
+            </dl>
+        </section>
+
+       
     </main>
 <!-- pied de page -->
     <footer>
