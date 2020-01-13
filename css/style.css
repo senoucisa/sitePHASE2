@@ -1,9 +1,12 @@
 /* feuille de style du site phase 2 webforce 3  */
+
+
 body {
     background-image: url(../img/concrete-texture.png);
 }
 
-/*********************************** TITRES TEXTES ETC.  ************************************/
+
+/*********************************** TITRES TEXTES ETC*********************/
 h1 {
     font-family: 'Anton', sans-serif;
     font-size: 44px;
@@ -11,7 +14,6 @@ h1 {
     text-align: center;
     letter-spacing: 1px;        
 }
-
 h2 {
     font-size: 35px;
     color:#2c3e50;
@@ -28,28 +30,23 @@ h3 {
     /* ombre portée  sur le lettrage*/
     text-shadow: 1px 1px 2px #aaa;
 }
-
 h4 {
     text-align: center;
     margin-top: 30px;
 }
-
 blockquote {
     font-style: italic;
     font-size: 120%;
 }
-
 strong {
     font-weight: bold;
 }
-
-/*********************************** HEADER INDEX ET SITE ***********************************/
+/*********************************** HEADER INDEX ET SITE ******************/
 
 header {
     background-color: #2c3e50;
     height: 175px;
 }
-
 #logo {
     background-color: #2c3e50;
     width: 25%;
@@ -57,19 +54,16 @@ header {
     /* padding: 15px; */
     text-align: center;
 }
-
 #slogan {
     background-color: #2c3e50;
     width: 50%;
     float: left;
     padding-top: 50px;
 }
-
 #social {
     width: 25%;
     float: left;
 }
-
 /*********************************** DEBUT NAV ***********************************/
 
 nav {
@@ -79,7 +73,6 @@ nav {
     border-bottom: 8px solid #6acafc;
     text-align: center;
 }
-
 nav a {
     margin: 10px;
     padding: 2px 10px;
@@ -93,18 +86,15 @@ nav a {
     font-size: 16px;
     transition: 0.5s;
 }
-
 nav a:hover {
     background: #2c3e50;
     color: #fff;
 }
-
 .active {
     background: #2c3e50;
     color: #fff;
 }
-
-/*********************************** ZONING INDEX  ***********************************/
+/*********************************** ZONING INDEX  *******************/
 
 main {
     /* alpha degré d'opacité de la couleur  */
@@ -113,25 +103,21 @@ main {
     /* piso ai changé largeur  */
     width: 1200px;
 }
-
 aside {
     height: 250px;
     background: #a6d6c3;
 }
-
 section {
     background: #daf7a6;
     margin-top: 50px;
     padding: 20px;
 }
-
 footer {
     background: #2980b9;
     height: 30px;
     color: #fff;
 }
-
-/*********************************** LA PAGE ZONING  ***********************************/
+/*********************************** LA PAGE ZONING  ***************/
 
 /* le zoning 1  */
 #zoning1 {
@@ -141,12 +127,10 @@ footer {
     margin: auto;
     text-align: center;
 }
-
 #zoning1 header {
     background-color: #f7f39a;
     height: 70px;
 }
-
 #zoning1 aside {
     background-color: #10828c;
     height: 525px;
@@ -154,7 +138,6 @@ footer {
     width: 20%;
     color: white;
 }
-  
 #zoning1 section {
     height: 525px;
     width: 80%;
@@ -163,7 +146,6 @@ footer {
     margin: 0;
     padding: 0;
 }
-
 /* Le zoning n°2  */
 
 #zoning2 {
@@ -173,13 +155,11 @@ footer {
     margin: auto;
     text-align: center;
 }
-
 #zoning2 header {
     background: red;
     color: #6acafc;
     height: 70px;
 }
-
 #zoning2 aside {
     background: #6acafc;
     float: left;
@@ -187,14 +167,12 @@ footer {
     height: 500px;
     color: white;    
 }
-
 .milieu {
     width: 60%;
     float: left;
     background: orange;
     height: 500px;
 }
-
 /* le zoning n°3  */
 
 #zoning3 {
@@ -205,7 +183,6 @@ footer {
     margin: auto;
     /* border: 10px solid red; */
 }
-
 #zoning3  section {
     height: 525px;
     float: left;
@@ -215,7 +192,6 @@ footer {
     padding: 0;
     /* border: 10px solid #fff; */
 }
-
 #zoning3 footer {
     height: 70px;
     float: left;
@@ -223,7 +199,6 @@ footer {
     background: #d8ebb5;
     color: black;
 }
-
 /* le zoning 4  */
 
 #zoning4 {
@@ -233,18 +208,15 @@ footer {
     margin: 0 auto;
     border: 20px dotted red;
 }
-
 #zoning4 header {
     height: 100px;
     background: #10828c;
 }
-
 #zoning4 nav {
     height: 50px;
     background: #bed4e2;
     border: none;
 }
-
 #zoning4 section {
     height: 200px;
     background: red;
@@ -255,48 +227,38 @@ footer {
     height: 100px;
     background:#6acafc;
 }
-
 /* le zoning 5  */
-
 #zoning5 {
     background: #ECEBE9;
     border: 2px solid black;
 }
-
 #zoning5 header {
     background: #F8D771;
     height: 100px;    
 }
-
 #zoning5 nav {
     background: olive;
     height: 50px;
     border: none;       
 }
-
 #zoning5 .section {
     padding: 0;
 }
-
 #zoning5 .section .z1, .z2, .z3, .z4 {
     float: left;
     width: 50%;
     height: 250px; 
 }
-
 #zoning5 .z1, .z4 {
     background: #F8D771;    
 }
-
 #zoning5 .z2, .z3 {
     background: #fce38a;    
 }
-
 #zoning5 footer {
     background: red;
     height: 90px;
 }
-
 /* le zoning 6  */
 
 #zoning6 {
@@ -305,65 +267,55 @@ footer {
     color: #fff;
     text-align: center;
 }
-
 #zoning6 header {
     background: #40a497;
     height: 180px;
 }
-
 .haut1  {
     background: #203562;
     float: left;
     width: 25%;
     height: 100%;
 }
-
 .haut2 {
     background: #3e588f;
     float: left;
     width: 50%;
     height: 100%;
 }
-
 .haut3 {
     background: #203562;    
     float: left;
     width: 25%;
     height: 100%;
 }
-
 #zoning6 nav {
     background: #0B5269;
     height: 80px;
     border: none;
 }
-
 #zoning6 aside {
     background: #446878;
     float: left;
     width: 25%;
     height: 650px;
 }
-
 .slideshow {
     background: #314a52;
     height: 250px;
 }
-
 #zoning6 .a {
     background: #c0c5cd;
     float: left;
     width: 50%;
     height: 250px;
 }
-
 #zoning6 .b {
     background: #203562;
     float: left;
     width: 50%;
     height: 250px;
 }
-
 #zoning6 section {
     float: left;
     width: 75%;
@@ -376,7 +328,6 @@ footer {
     height: 150px;
     float: left;
 }
-
 #zoning6 .d, .f {
     background: #203562;
     width: 25%;
@@ -387,7 +338,6 @@ footer {
 #zoning6 footer {
     background: #0B5269;
 }
-
 /*********************************** FLOAT  ***********************************/
 
 .clear {
@@ -429,8 +379,7 @@ footer {
 .imageFond {
     background: url(../img/fond.jpg) no-repeat;
     background-size: cover;
-    /* http://developer.mozilla.org/fr/docs/web/css/ */
-   
+    /* http://developer.mozilla.org/fr/docs/web/css/ */ 
 }
 .imageFond p {
     width: 75%;
@@ -440,7 +389,6 @@ footer {
     font-size: 120%;
     border-radius: 10px;
 }
-
 /* on pointe cette image spécifique */
 img[src="../img/toureiffel.jpg"]{
     width: 200px;
@@ -491,8 +439,6 @@ img[src="../img/toureiffel.jpg"]{
     text-align: center;
     font-size: 80%;
 }
-
-
 /**********************************la pages des listes ***********************************/
 ul.fruit li {
     display: inline;
@@ -527,7 +473,6 @@ li .fa:hover {
     box-shadow: 5px 10px 10px grey;
     transition-duration: 1s;
 }
-
 form {
     width: 60%;
     background: #2c3e50;
@@ -540,7 +485,6 @@ label {
     margin: 10px 0;
     width: 50%;
     display: inline-block;
-
 }
 textarea {
     resize: none;
@@ -550,7 +494,7 @@ label[for="orange"],label[for="fraise"],label[for=poire]{
     padding-left: 45px;
 }
 
-/*********************************la page des liens et des menus***********************************/
+/*********************************la page des liens et des menus*****************/
 /* style des liens */
 .ancre {
     text-align: center;
@@ -566,7 +510,6 @@ label[for="orange"],label[for="fraise"],label[for=poire]{
     box-shadow: 0px 0px 10px 3px #000;
     font-family: 'Oswald',sans-serif;
 }
-
 .ancre a:hover {
     box-shadow: none;
     transition-duration:0.5s;
@@ -581,5 +524,71 @@ label[for="orange"],label[for="fraise"],label[for=poire]{
 #lien a:hover {
     color:  #f16529;
 }
+#menu nav {
+    background: transparent;
+    border: none;
+}
+#menu ul {
+    text-align: center;
+}
+
+#menu ul li {
+    /* https://www.alsacreations.com/article/lire/1209-display-inline-block.html */
+    display: inline-block;
+}
+  
+#menu nav a {
+    padding: 10px;
+    color: grey;
+    background: #ddd;
+    /* ease-in lent au début et accélère sur la fin de la transition */
+    transition: 1s ease-in;
+}
+#menu nav a:hover {
+    color: #fff;
+    background: #069;
+}
+
+/*********************************le menu déroulant*****************/
+#menuDeroulant {
+    height: 650px;
+}
+#menuDeroulant nav {
+    background: transparent;
+    border: none;
+    width: 90%;
+    margin: 0 auto;
+}
+#menuDeroulant nav ul li {
+    float: left;
+    width: 20%;
+}
+
+#menuDeroulant ul ul {
+    display: none;
+}
+#menuDeroulant nav ul li ul li {
+    border-top: 1px solid #464646;
+    width: 100%;
+}
+
+#menuDeroulant nav li {
+    background-color: #ccc;
+}
+#menuDeroulant nav li a {
+    display: block;
+    color: #000;
+    padding: 4px 0 4px;
+}
+#menuDeroulant ul {
+    text-align:center;
+}
+/* Les UL qui sont de class niveau 2,et qui sont dans un LI de class sousMenu sur lequel on a un hover,LI dans la UL dans class niveau 1 sont display block*/
+#menuDeroulant nav ul.niveau1 li.sousMenu:hover ul.niveau2 {
+    display: block;
+}
+
+  
+
 
 

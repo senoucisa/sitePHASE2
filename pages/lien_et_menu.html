@@ -63,7 +63,7 @@
             <a href="#menuDeroulant">Menu déroulant</a>
         </div>
         <section id="lien">
-            
+
             <h3>Les liens</h3>
                 <!--Dans le lien nous aurons aussi (title="xxx") pour ouvrir fenêtre d'info au passage de la souris sur le lien et (target="_blank") pour envoyer sur un autre onglet"-->
                 <a href="https://codepen.io" title="Se rendre sur le site de CodePen" target="_blank">CodePen</a> is a social development environment for front-end designers and developers.<br>
@@ -82,35 +82,33 @@
             <h3>Les menus</h3>
                 <nav>
                    <ul>
-                       <li><a href="#">Accueil</a></li>
-                       <li><a href="#">Parcours</a></li>
-                       <li><a href="#">Réalisations</a></li>
-                       <li><a href="#">Contact</a></li>
+                       <li><a href="#menu">Accueil</a></li>
+                       <li><a href="#menu">Parcours</a></li>
+                       <li><a href="#menu">Réalisations</a></li>
+                       <li><a href="#menu">Contact</a></li>
                       
                    </ul>
 
                 </nav>
         </section>
-        <section id="menuDeroulant"></section>
+        <section id="menuDeroulant">
             <h3>Un menu déroulant</h3>
 
             <nav>
-                <ul class="Niveau1">
-
+                <ul class="niveau1">
                     <li><a href="#">Accueil</a></li>
-                    <li class="sousMenu"><a href="#">Formations</a></li>
-                        <ul class="">
+                    <li class="sousMenu"><a href="#">Formations</a>
+                        <ul class="niveau2">
                             <li><a href="#">Etudiant</a></li>
                             <li><a href="#">Emploi</a></li>
-                            <li><a href="#">Recherche d'emploi</a></li>
+                            <li><a href="#">Recherche d'emploi</a>
                             <li><a href="#">Document</a></li>
                         </ul>
+                    </li>
+                
                     <li><a href="#">Information</a></li>
-
-                    <li class="sousMenu"><a href="#">Cours</a></li>
-
-                        <ul class="Niveau2">
-
+                    <li class="sousMenu"><a href="#">Cours</a>
+                        <ul class="niveau2">
                             <li><a href="#">Internet</a></li>
                             <li><a href="#">Html Css</a></li>
                             <li><a href="#">CMS</a></li>
@@ -120,16 +118,12 @@
                             <li><a href="#">Marketing</a></li>
                             <li><a href="#">Cahier des charges</a></li>
                             <li><a href="#">Photoshop</a></li>
-
-
                         </ul>
-
-                    <li><a href="#">Mon cv</a></li>
-                    
-
+                    </li>
+                    <li><a href="#">Mon cv</a></li>                    
                 </ul>
             </nav>
-
+        </section>
     </main>
     <!-- pied de page -->
     <footer>
