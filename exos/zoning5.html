@@ -6,73 +6,69 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Zoning exo 5</title>
     <link rel="stylesheet" href="../css/reset.css">
+    <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Zoning 5</title>
+    <link rel="stylesheet" href="../css/reset.css">
     
-    <style>
-        
-        * {
-            
-            box-sizing: border-box;
-        }
-        ​
-       
-                body {
-                    background-image: url(../img/concrete-texture.png);
-                    color: #fff;
-                    width: 80%;
-                    margin: 0 auto;
-                    margin-top: 10px;
-                    margin-bottom: 10px;
-                    border:2px solid #fff
-                }
-                header {
-                    background: orange;
-                    height: 200px;
-                }
-                aside {
-                    background: green;
-                    float: left;
-                    width: 20%;
-                    height: 650px;
-                    border-right:2px solid #fff;
-                  
-                }
-                section {
-                    background: pink;
-                    float: left;
-                    width: 75%;
-                    height: 650px;
-                }
-                footer {
-                    background-color: orange;
-                    height: 200px;
-                }
-                .clear {
-                    clear: both;
-                }
-            
-            </style>
-        </head>
-        <body>
-                    <header>
-                    <h1>Zoning 5
-                        
-                    </h1>
-                    </header>
-                    <aside>
-                        <p>zone de gauche</p>
-                    </aside>
-                    <section>
-                        <p>zone de droite</p>
-                    </section>
-                   
-                    <div class="clear"></div>
-                    <footer>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum ipsa eaque fugit, maiores voluptatibus provident fuga quibusdam quia rem facere corporis possimus deserunt sed ratione. Earum voluptatum tenetur fugiat aut!
-                    </footer>
-                
-           
-       
 </head>
-
-
+<style>
+    body {
+        background-color: #ECEBE9;
+        border: 2px solid black;
+        text-align: center;
+    }
+    header {
+        background-color: #F8D771;
+        height: 100px;
+    }
+    nav {
+        background-color: cadetblue;
+        height: 50px;
+        border: none;
+    }
+    .section {
+        padding: 0;
+    }
+    .section .z1, .z2, .z3, .z4 {
+        float: left;
+        width: 50%;
+        height: 250px;
+    }
+    .z1, .z4 {
+        background-color: #F8D771;
+    }
+    .z2, .z3 {
+        background-color: #FCE38A;
+    }
+    footer {
+        background-color: crimson;
+        height: 90px;
+    }
+</style>
+<body>
+    
+    <header>
+        <p>Header</p>
+    </header>
+    <nav>
+        <p>nav</p>
+    </nav>
+    <section class="section">
+    
+        <div class="z1">Zone 1</div>
+        <div class="z2">Zone 2</div>
+        <div class="z3">Zone 3</div>
+        <div class="z4">Zone 4</div>
+    
+    </section>
+    <div class="clear"></div>
+    <footer>
+        <p>Footer</p>
+    </footer>
 </body>
 </html>

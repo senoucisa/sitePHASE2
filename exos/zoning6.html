@@ -5,73 +5,135 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Zoning exo 6</title><link rel="stylesheet" href="../css/reset.css">
-    
+    <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Zoning 6</title>
+    <link rel="stylesheet" href="../css/reset.css">
     <style>
-        
-        * {
-            
-            box-sizing: border-box;
+    
+        body {
+            width: 800px;
+            margin: 0 auto;
+            color: #fff;
+            text-align: center;
         }
-        ​
-       
-                body {
-                    background-image: url(../img/concrete-texture.png);
-                    color: #fff;
-                    width: 80%;
-                    margin: 0 auto;
-                    margin-top: 10px;
-                    margin-bottom: 10px;
-                    border:2px solid #fff
-                }
-                header {
-                    background: orange;
-                    height: 200px;
-                }
-                aside {
-                    background: green;
-                    float: left;
-                    width: 20%;
-                    height: 650px;
-                    border-right:2px solid #fff;
-                  
-                }
-                section {
-                    background: pink;
-                    float: left;
-                    width: 75%;
-                    height: 650px;
-                }
-                footer {
-                    background-color: orange;
-                    height: 200px;
-                }
-                .clear {
-                    clear: both;
-                }
-            
-            </style>
-        </head>
-        <body>
-                    <header>
-                    <h1>Zoning 6
-                        
-                    </h1>
-                    </header>
-                    <aside>
-                        <p>zone de gauche</p>
-                    </aside>
-                    <section>
-                        <p>zone de droite</p>
-                    </section>
-                   
-                    <div class="clear"></div>
-                    <footer>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum ipsa eaque fugit, maiores voluptatibus provident fuga quibusdam quia rem facere corporis possimus deserunt sed ratione. Earum voluptatum tenetur fugiat aut!
-                    </footer>
-                
-           
-       
+        header {
+            background-color: #40A497;
+            height: 180px;
+        }
+        .haut1 {
+            background-color: #203562;
+            float: left;
+            width: 25%;
+            height: 100%;
+        }
+        .haut2 {
+            background-color: #3E588F;
+            float: left;
+            width: 50%;
+            height: 100%;
+        }
+        .haut3 {
+            background-color: #203562;
+            float: left;
+            width: 25%;
+            height: 100%;
+        }
+        nav {
+            background-color: #0B5269;
+            height: 80px;
+            border: none;
+        }
+        aside {
+            background-color: #446878;
+            float: left;
+            width: 25%;
+            height: 650px;
+        }
+        .slideshow {
+            background-color: #314A52;
+            height: 250px;
+        }
+        .a {
+            background-color: #C0C5CD;
+            float: left;
+            width: 50%;
+            height: 250px;
+        }
+        .b {
+            background: #203562;
+            float: left;
+            width: 50%;
+            height: 250px;
+        }
+        section {
+            float: left;
+            width: 75%;
+            margin: 0;
+            padding: 0;
+        }
+        .c, .e {
+            background: #C0C5CD;
+            width: 25%;
+            height: 150px;
+            float: left;
+        }
+        .d, .f {
+            background: #203562;
+            width: 25%;
+            height: 150px;
+            float: left;
+        }
+        footer {
+            background: #0B5269;
+        }
+    </style>
 </head>
-
-
+<body>
+    
+    <header>
+        <div class="haut1">
+            <p>Haut 1<br>DIV</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis mollitia debitis tenetur minima alias
+                esse illum atque magnam quod doloribus voluptate tempore libero quis voluptatem architecto in vel,
+                qui ad.</p>
+        </div>
+        <div class="haut2">
+            <p>Haut 2<br>DIV</p>
+        </div>
+        <div class="haut3">
+            <p>Haut 3<br>DIV</p>
+        </div>
+        <div class="clear"></div>
+    </header>
+    <nav>
+        <p>Menu<br>NAV</p>
+    </nav>
+    <aside>
+        <p>Zone de gauche<br>ASIDE</p>
+    </aside>
+    <section>
+        <div class="a">A<br>DIV</div>
+        <div class="b">B<br>DIV</div>
+        <div class="clear"></div>
+    </section>
+    <section class="slideshow">
+        <p>slideshow, diaporama<br>SECTION</p>
+    </section>
+    <section>
+        <div class="c">C</div>
+        <div class="d">D</div>
+        <div class="e">E</div>
+        <div class="f">F</div>
+        <div class="clear"></div>
+    </section>
+    <footer class="">
+        <p>Bas<br>footer</p>
+    </footer>
+    <div class="clear"></div>
 </body>
 </html>
