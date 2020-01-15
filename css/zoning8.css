@@ -1,0 +1,53 @@
+body {
+    background-color: thistle;
+}
+
+body {
+    background: yellowgreen;
+}
+#conteneur {
+    background: gray;
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+header {
+    background:red;
+    height: 150px;
+    width: 100%;
+    line-height: 100px;
+}
+.gauche, .droite {
+    background: blue;
+    width: 150px;
+    height: 500px;
+    float: left;
+    line-height: 500px;
+}
+.millieu {
+    background: green;
+    float: left;
+    width: 500px;
+    height: 500px;  
+}
+.zone1, .zone2, .zone3, .zone4, .zone5 {
+    background: hotpink;
+    height: 450px;
+    width: 100px;
+    float: left;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+.bas {
+    background: purple;
+    height: 50px;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    top: 450px;
+}
+.bas p {
+    position: inherit;
+
+}

@@ -6,10 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description"content="Mon premier site HTML CSS">
     <meta name="keywords" content="HTML CSS - Samia">
-    <title>Site phase 2 </title>
+    <title>Site phase 2 position </title>
     <!-- lien vers le kit de fontawesome -->
     <script src="https://kit.fontawesome.com/deab18204a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/reset.css">
 </head>
 <!-- corp du document -->
 <body>
@@ -22,7 +23,8 @@
             <!-- lien sur un bouton pour remonter en haut de la page -->
             <a href="#logo">
                 <!-- affiché en bas de page(évidement)gra^ce au CSS -->
-                <button type="button"><i class="fas fa-arrow-circle-up"></i></button></a>
+                <button type="button"><i class="fas fa-arrow-circle-up"></i></button>
+            </a>
                 
            
             <img src="../img/logo.png" alt="Mon premier site HTML CSS">
@@ -58,17 +60,83 @@
     
 <!-- contenu principal -->
     <main>
-<!--aside contenu secondaire ou contenu latéral à gauche ou à droite -->
-        <aside></aside>
-<!-- section zone de contenu,titre,regroupement thématique ect -->
+        <h2>Position</h2>
+        
         <section>
-<!-- zone supplémentaire de contenu -->
-            <div></div>
-            <span></span>
-            <article></article>
+            <h3>Centrer un élément de type block</h3>
+            <div class="centre"></div>
+
         </section>
+        <section>
+
+            <h3>Position Absolute</h3>
+            <p>Carré Jaune! Regarde en haut camarade!</p>
+            <div class="absolute"></div>
+        </section>
+
+        <section>
+            <h3>Position relative</h3>
+            <div class="relative">
+                <div><p>15/Janvier/2020</p></div>
+            </div>
+        </section>
+
+        <section>
+            <h3>Les poucentages</h3>
+            <div class="trente">30%</div>
+            <div class="cinquante">50%</div>
+            <div class="cent">100%</div>
+        </section>
+
+        <section>
+            <h3>l'attribut float</h3>
+            <!-- div*10.float{$} voici la formule pour faire 10 d'un coup -->
+            <div class="float">1</div>
+            <div class="float">2</div>
+            <div class="float">3</div>
+            <div class="float">4</div>
+            <div class="float clear">5</div>
+            <div class="float">6</div>
+            <div class="float">7</div>
+            <div class="float clear">8</div>
+            <div class="float">9</div>
+            <div class="dernier clear">10</div>
+           
+        </section>
+        
+        <section>
+            <h3>Exercice sur le Float</h3>
+            <div class="zone"></div>
+            <div class="zone1"></div>
+            <div class="zone2"></div>
+            <div class="zone3"></div>
+            <div class="zone4"></div>
+            <div class="zone clear"></div>
+        </section>
+
+        <section>
+            <h3>Fexbox</h3>
+                <article class="flex">
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                    <div>4</div>
+                    <div>5</div>
+                    <div>6</div>
+                    <div>7</div>
+                </article>
+        
+        </section>
+
+        
+
+
+
+
     </main>
 <!-- pied de page -->
+            <div class="clear"></div>
+
     <footer>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.<i class="fas fa-shoe-prints"></i></p>
     </footer>
