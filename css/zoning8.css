@@ -1,6 +1,5 @@
-body {
-    background-color: thistle;
-}
+
+
 
 body {
     background: yellowgreen;
@@ -11,15 +10,16 @@ body {
     height: 600px;
     margin: 0 auto;
     text-align: center;
+    color: #fff;
 }
 header {
     background:red;
-    height: 150px;
+    height: 100px;
     width: 100%;
     line-height: 100px;
 }
 .gauche, .droite {
-    background: blue;
+    background: lightblue;
     width: 150px;
     height: 500px;
     float: left;
@@ -27,27 +27,38 @@ header {
 }
 .millieu {
     background: green;
-    float: left;
     width: 500px;
-    height: 500px;  
+    height: 500px;
+    float: left;  
 }
 .zone1, .zone2, .zone3, .zone4, .zone5 {
-    background: hotpink;
-    height: 450px;
+    /* avec .bas ses 5 éléments sont les enfants de .millieu */
+    background:pink;
+    height: 500px;
     width: 100px;
     float: left;
-    border: 2px solid black;
+    border: 1px solid black;
     box-sizing: border-box;
 }
 .bas {
-    background: purple;
+    background: orange;
     height: 50px;
+    /* .bas est l'enfant de l'élément .millieu eu il a une position relative a son parent */
     position: relative;
     right: 0;
-    bottom: 0;
+    /* .bas est positionné à 450px du haut de l'élément .millieu */
     top: 450px;
 }
 .bas p {
-    position: inherit;
-
+    width: 500px;
+    height: 50px;
+    /* le P est absolue par rapport à son parent .bas (et non pas par rapport à l'ancêtre car .bas est relatif) */
+    position: absolute;
+    line-height: 50px;
 }
+/* }
+.clear {
+    clear: both;
+} */
+
+/* SOLUTION 1 sans .clear dans le html */

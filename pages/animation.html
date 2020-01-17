@@ -4,47 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description"content="Mon premier site HTML CSS">
-    <meta name="keywords" content="HTML CSS - Samia">
-    <title>Site phase 2 </title>
-    <!-- lien vers le kit de fontawesome -->
-    <script src="https://kit.fontawesome.com/deab18204a.js" crossorigin="anonymous"></script>
+    <meta name="description" content="Mon premier site HTML CSS - Sahar">
+    <meta name="keywords" content="HTML, CSS, Sahar, site HTML CSS ">
+    <title>Site Phase 2 - Zoning</title>
+    <!-- lien vers les typos en CDN  -->
+    <link href="https://fonts.googleapis.com/css?family=Anton|Lemonada|Oswald&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/94a46f98c4.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/reset.css">
 </head>
-<!-- corp du document -->
 <body>
-<!-- zone haute de la page -->
-
-    <header>
-        <!-- la div pour le logo -->
-        <div id="logo"><!-- ancre du haut de la page -->
-
-            <!-- lien sur un bouton pour remonter en haut de la page -->
-            <a href="#logo">
-                <!-- affiché en bas de page(évidement)gra^ce au CSS -->
-                <button type="button"><i class="fas fa-arrow-circle-up"></i></button></a>
-                
-           
-            <img src="../img/logo.png" alt="Mon premier site HTML CSS">
+   <!-- zon haute de la page -->
+   <header>
+    <!-- div*3#  -->
+    <!-- la div pour le logo  -->
+        <div id="logo"> <!-- ancre du haut de la page  -->
+        <a href="#logo"><!-- lien sur un bouton pour remonter en haut de la page le bouton sera afficheé en bas de page (évidement) grâce au css  -->
+        <button type="button" class="haut"><i class="fas fa-arrow-alt-circle-up"></i> </button></a>
+        <img src="../img/logo.png" alt="Mon premier site HTML CSS">
         </div>
-        <!-- la div pour le titre du site -->
+    <!-- la div pour le titre de site  -->
         <div id="slogan"><h1>Mon premier site en HTML & CSS</h1></div>
-        <!-- la div des liens vers les reseaux sociaux -->
-        <div id="social"></div>
-        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+    <!-- la div pour les liens vers les réseaux sociaux  -->
+        <div id="social">
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+        </div>
+         <!-- je rétablis le flux  -->
+         <div class="clear"></div>
     </header>
     <!-- zone du menu, les liens pour naviguer sur le site  -->
         <nav>
-            <a href="../index.html" title="Site Phase 2 //Accueil, La structure">Sructure</a>
-            <a href="texte.html" title="Site Phase 2// Les textes">Texte</a>
+            <a href="../index.html" class="active" title="Site Phase 2 //Accueil, La structure">Sructure</a>
+            <a href="text.html" title="Site Phase 2// Les textes">Texte</a>
             <a href="selecteur.html" title="Site Phase 2// Les selecteurs">Structure</a>
             <a href="image.html" title="Site Phase 2// Les images">Image</a>
             <a href="position.html" title="Site Phase 2// les positions">Position</a>
             <a href="zoning.html" title="Site Phase 2//Le zoning">Zoning</a>
             <a href="tableau.html" title="Site Phase 2// Les tableau">Tableau</a>
             <a href="liste.html" title="Site Phase 2// Les listes">Liste</a>
-            <a href="lien_et_menu.html" title="Site Phase 2// Les liens et les menus">lien & menu</a>
+            <a href="lien_et _menu.html" title="Site Phase 2// Les liens et les menus">lien & menu</a>
             <a href="formulaire.html" title="Site Phase 2// Les formulaire">Formulaire</a>
             <a href="multimedia.html" title="Site Phase 2// La multimedia" >Multemidia</a>
             <a href="animation.html" title="Site Phase 2// Les animation" class="active">Animation</a>
@@ -53,14 +52,46 @@
     
 <!-- contenu principal -->
     <main>
-<!--aside contenu secondaire ou contenu latéral à gauche ou à droite -->
-        <aside></aside>
-<!-- section zone de contenu,titre,regroupement thématique ect -->
+        <h2>Animations</h2>
         <section>
-<!-- zone supplémentaire de contenu -->
-            <div></div>
-            <span></span>
-            <article></article>
+            <h3>Infobulle</h3>
+            <div class="infoBulle">
+                
+                <p>
+                    <a href="">Passez la souris!<span>Salut je suis une pop-up!!</span></a>
+                </p>
+                <p>
+                    <a href="">Ici aussi! <span>Salut je suis une autre!</span></a>
+                </p>
+                <p>
+                    <a href="">Une fois encore! <span>Et encore une!</span></a>
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h3>Effets de survol avec transition et filtres CSS</h3>
+           <ul class="imgEffets">
+               <li><img src="../img/survol_img1.jpg" alt="montagne"></li>
+               <li><img src="../img/survol_img2.jpg" alt="soleil couchant et une barque"></li>
+               <li><img src="../img/survol_img3.jpg" alt="un oiseau en bord de mer"></li>
+               <li><img src="../img/survol_img4.jpg" alt="forêt en automne"></li>
+           </ul>
+        </section>
+
+        <section>
+            <h3>Rotation d'un menu en CSS 3</h3>
+            <article id="menuRotation">
+                <dl class="btnRot">
+                    <dt class="btnRot">Partager</dt>
+                    <dd><a href="#">...</a></dd>
+                    <dd><a href="#">Instagram</a></dd>
+                    <dd><a href="#">Facebook</a></dd>
+                    <dd><a href="#">Twitter</a></dd>
+                </dl>
+
+            </article>
+            <!-- voir -->
         </section>
     </main>
 <!-- pied de page -->
