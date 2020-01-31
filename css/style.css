@@ -856,5 +856,19 @@ button {
     border-right: 6px solid transparent;
 }
 
+/* ****************page animation suite effets sur les images ******** */
+.imgEffets {
+    width: 320px;
+    height: 320px;
+    margin: 70px auto;
+}
+.imgEffets li {
+    list-style: none;
+    width: 141px;
+    height: 150px;  
+    float: left; 
+}
+
+
 
 
